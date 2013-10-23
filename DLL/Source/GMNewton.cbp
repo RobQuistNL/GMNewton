@@ -18,11 +18,12 @@
 			<Add option="-DBUILDING_DLL=1" />
 			<Add option="-D_NEWTON_USE_LIB" />
 			<Add directory=".\common" />
-			<Add directory="..\NewtonSDK\1.53" />
-			<Add directory="..\NewtonSDK\1.53\dll" />
+			<Add directory="..\NewtonSDK\2.36" />
+			<Add directory="..\NewtonSDK\2.36\Win32\releaseDll" />
 		</Compiler>
 		<Linker>
-			<Add library="..\NewtonSDK\1.53\dll\Newton.lib" />
+			<Add library="..\NewtonSDK\2.36\Win32\releaseDll\newton.lib" />
+			<Add library="..\NewtonSDK\2.36\Win32\releaseDll\dJointLibrary.lib" />
 		</Linker>
 		<Unit filename="body.cpp" />
 		<Unit filename="body.h" />

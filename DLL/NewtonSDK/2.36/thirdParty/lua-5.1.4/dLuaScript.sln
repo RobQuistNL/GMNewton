@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dLuaScript", "dLuaScript.vcproj", "{DF199349-6F04-4C0B-9FE6-879111CC74DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{D861E8D3-1A13-4986-8EEB-70920D8EAACF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF199349-6F04-4C0B-9FE6-879111CC74DE} = {DF199349-6F04-4C0B-9FE6-879111CC74DE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF199349-6F04-4C0B-9FE6-879111CC74DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF199349-6F04-4C0B-9FE6-879111CC74DE}.Debug|Win32.Build.0 = Debug|Win32
+		{DF199349-6F04-4C0B-9FE6-879111CC74DE}.Release|Win32.ActiveCfg = Release|Win32
+		{DF199349-6F04-4C0B-9FE6-879111CC74DE}.Release|Win32.Build.0 = Release|Win32
+		{D861E8D3-1A13-4986-8EEB-70920D8EAACF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D861E8D3-1A13-4986-8EEB-70920D8EAACF}.Debug|Win32.Build.0 = Debug|Win32
+		{D861E8D3-1A13-4986-8EEB-70920D8EAACF}.Release|Win32.ActiveCfg = Release|Win32
+		{D861E8D3-1A13-4986-8EEB-70920D8EAACF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
