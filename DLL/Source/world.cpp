@@ -22,6 +22,10 @@ export double GmnCreate(){  // Create an instance of the Newton world.
    return(recastWorldDouble(nWorld));
 }
 
+export double GmnSetGravity(double xForce, double yForce, double zForce){
+   return 0; //Not yet implemented
+}
+
 export double GmnDestroy(NewtonWorld* nWorld){  // Destroy an instance of the Newton world.
    NewtonDestroy(nWorld);
    return (1);

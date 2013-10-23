@@ -1,5 +1,5 @@
-global.__GmnSetCompatabilityMode__ = external_define("GMNewton.dll","GmnSetCompatabilityMode",dll_cdecl,ty_real,1,ty_real);
-global.__GmnGetCompatabilityMode__ = external_define("GMNewton.dll","GmnGetCompatabilityMode",dll_cdecl,ty_real,0);
+//global.__GmnSetCompatabilityMode__ = external_define("GMNewton.dll","GmnSetCompatabilityMode",dll_cdecl,ty_real,1,ty_real);
+//global.__GmnGetCompatabilityMode__ = external_define("GMNewton.dll","GmnGetCompatabilityMode",dll_cdecl,ty_real,0);
 global.__GmnSetGravity__ = external_define("GMNewton.dll","GmnSetGravity",dll_cdecl,ty_real,3,ty_real,ty_real,ty_real);
 global.__GmnCreateBody__ = external_define("GMNewton.dll","GmnCreateBody",dll_cdecl,ty_real,2,ty_real,ty_real);
 global.__GmnDestroyBody__ = external_define("GMNewton.dll","GmnDestroyBody",dll_cdecl,ty_real,2,ty_real,ty_real);
