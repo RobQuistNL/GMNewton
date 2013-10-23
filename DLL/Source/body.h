@@ -2,8 +2,6 @@
 #define _BODY_H_
 
 #include <cstddef>
-#include <stdafx.h>
-#include "newton.h"
 #include "dll.h"
 #include "recast.h"
 

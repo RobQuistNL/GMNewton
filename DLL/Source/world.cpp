@@ -20,10 +20,11 @@ export double GmnCreate(){  // Create an instance of the Newton world.
    double dWorld;
    NewtonWorld* nWorld = NewtonCreate(physicsAlloc,physicsFree);
    return(recastWorldDouble(nWorld));
+
 }
 
 export double GmnSetGravity(double xForce, double yForce, double zForce){
-   return 0; //Not yet implemented
+   return 0; //Not yet implementedt -
 }
 
 export double GmnDestroy(NewtonWorld* nWorld){  // Destroy an instance of the Newton world.

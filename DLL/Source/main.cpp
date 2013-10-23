@@ -1,3 +1,6 @@
+#include "Newton.h"
+#include "JointLibrary.h"
+#include "dVector.h"
 /*
 
 #include <cstddef>

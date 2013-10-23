@@ -1,5 +1,5 @@
 #include "body.h"
-
+#include "dVector.h"
 
 void  PhysicsApplyForceAndTorque (const NewtonBody* body)
 {
@@ -19,7 +19,7 @@ export double GmnCreateBody(double dWorld, double dCollision){
    NewtonWorld* nWorld = recastDoubleWorld(dWorld);
    NewtonCollision* nCollision = recastDoubleCollision(dCollision);
 
-   NewtonBody* nBody = NewtonCreateBody(nWorld, nCollision);
+   NewtonBody* nBody = NewtonCreateBody(nWorld, nCollision, 0.0f);
 
    NewtonBodySetForceAndTorqueCallback (nBody, PhysicsApplyForceAndTorque);
 

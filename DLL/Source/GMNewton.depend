@@ -458,10 +458,8 @@
 1241846228 source:g:\gmstudio\git\gmnewton\dll\source\body.cpp
 	"body.h"
 
-1241846638 g:\gmstudio\git\gmnewton\dll\source\body.h
+1382552752 g:\gmstudio\git\gmnewton\dll\source\body.h
 	<cstddef>
-	<stdafx.h>
-	"newton.h"
 	"dll.h"
 	"recast.h"
 
@@ -522,7 +520,7 @@
 	"materials.h"
 	"col_struct.h"
 
-1239508310 g:\gmstudio\git\gmnewton\dll\source\world.h
+1382551697 g:\gmstudio\git\gmnewton\dll\source\world.h
 	<cstddef>
 	"newton.h"
 	"dll.h"
@@ -558,4 +556,6 @@
 	"world.h"
 
 1148112938 g:\gmstudio\git\gmnewton\dll\newtonsdk\1.53\newton.h
+
+1328327620 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\newton.h
 

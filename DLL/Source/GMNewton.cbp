@@ -17,9 +17,10 @@
 		<Compiler>
 			<Add option="-DBUILDING_DLL=1" />
 			<Add option="-D_NEWTON_USE_LIB" />
-			<Add directory=".\common" />
-			<Add directory="..\NewtonSDK\2.36" />
-			<Add directory="..\NewtonSDK\2.36\Win32\releaseDll" />
+			<Add directory="./common" />
+			<Add directory="../NewtonSDK/2.36" />
+			<Add directory="../NewtonSDK/2.36/Win32/releaseDll" />
+			<Add directory="../NewtonSDK/2.36/dMath" />
 		</Compiler>
 		<Linker>
 			<Add library="..\NewtonSDK\2.36\Win32\releaseDll\newton.lib" />
@@ -37,6 +38,7 @@
 		<Unit filename="j_bs.h" />
 		<Unit filename="joint_destroyer.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
 		<Unit filename="materials.cpp" />
 		<Unit filename="materials.h" />
 		<Unit filename="recast.cpp" />
@@ -48,6 +50,7 @@
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
