@@ -1,5 +1,6 @@
 #include "j_bs.h"
 #include "joint_destroyer.h"
+#include "dVector.h"
 
 Joint_List mlist(10);
 

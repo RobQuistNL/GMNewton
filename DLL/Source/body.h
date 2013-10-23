@@ -2,6 +2,10 @@
 #define _BODY_H_
 
 #include <cstddef>
+#include "dVector.h"
+#include "dMatrix.h"
+#include "dMathDefines.h"
+#include "dStdAfxMath.h"
 #include "dll.h"
 #include "recast.h"
 

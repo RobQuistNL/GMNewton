@@ -1,5 +1,4 @@
 #include <cstddef>
-#include <stdafx.h>
 #include "newton.h"
 #include "dll.h"
 #include "recast.h"
@@ -19,7 +18,7 @@ export double GmnMaterialSetCollisionCallback(double dWorld, double mat0, double
 
 
 int MaterialBeginCollisionCallback (const NewtonMaterial* material, const NewtonBody* body0, const NewtonBody* body1);
-int MaterialContactCollisionCallback (const NewtonMaterial* material, const NewtonContact* contact);
+//int MaterialContactCollisionCallback (const NewtonMaterial* material, const NewtonContact* contact);
 void MaterialEndCollisionCallback (const NewtonMaterial* material);
 
 int ClearCollisionRecord();

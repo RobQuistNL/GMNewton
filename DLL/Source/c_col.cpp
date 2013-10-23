@@ -1,5 +1,6 @@
 #include "c_col.h"
 
+
 export double GmnCreateNull(double dWorld){
    NewtonWorld* nWorld = recastDoubleWorld(dWorld);
    NewtonCollision* nCollision = NewtonCreateNull(nWorld);
@@ -7,16 +8,18 @@ export double GmnCreateNull(double dWorld){
 }
 
 export double GmnCreateBox(double dWorld, double dx, double dy, double dz, double offset_x, double offset_y, double offset_z){
-   NewtonWorld* nWorld = recastDoubleWorld(dWorld);
+    NewtonWorld* nWorld = recastDoubleWorld(dWorld);
 
+/*
    dMatrix matrix(GetIdentityMatrix());//Create the offset matrix
    matrix.m_posit.m_x = offset_x;//Apply offsets to matrix
    matrix.m_posit.m_y = offset_y;
    matrix.m_posit.m_z = offset_z;
-   
-   NewtonCollision* nCollision = NewtonCreateBox (nWorld,dx,dy,dz,NULL);//&matrix[0][0]);
-   
-   return( recastCollisionDouble(nCollision) );
+  */
+    dFloat matrix[16];
+    NewtonCollision* nCollision = NewtonCreateBox (nWorld,dx,dy,dz,NULL,matrix);//&matrix[0][0]);
+
+    return( recastCollisionDouble(nCollision) );
 }
 
 export double GmnCreateSphere(double dWorld, double radiusX, double radiusY, double radiusZ, double offset_x, double offset_y, double offset_z){
@@ -26,8 +29,8 @@ export double GmnCreateSphere(double dWorld, double radiusX, double radiusY, dou
    matrix.m_posit.m_x = offset_x;//Apply offsets to matrix
    matrix.m_posit.m_y = offset_y;
    matrix.m_posit.m_z = offset_z;
-   
-   NewtonCollision* nCollision = NewtonCreateSphere (nWorld, radiusX, radiusY, radiusZ,&matrix[0][0]);
+
+   NewtonCollision* nCollision = NewtonCreateSphere (nWorld, radiusX, radiusY, radiusZ,0,&matrix[0][0]);
    return( recastCollisionDouble(nCollision) );
 }
 
@@ -38,8 +41,8 @@ export double GmnCreateCone(double dWorld, double radius, double height, double 
    matrix.m_posit.m_x = offset_x;//Apply offsets to matrix
    matrix.m_posit.m_y = offset_y;
    matrix.m_posit.m_z = offset_z;
-   
-   NewtonCollision* nCollision = NewtonCreateCone (nWorld, radius, height,&matrix[0][0]);
+
+   NewtonCollision* nCollision = NewtonCreateCone (nWorld, radius, height,0,&matrix[0][0]);
    return( recastCollisionDouble(nCollision) );
 }
 
@@ -50,8 +53,8 @@ export double GmnCreateCapsule(double dWorld, double radius, double height, doub
    matrix.m_posit.m_x = offset_x;//Apply offsets to matrix
    matrix.m_posit.m_y = offset_y;
    matrix.m_posit.m_z = offset_z;
-   
-   NewtonCollision* nCollision = NewtonCreateCapsule (nWorld, radius, height,&matrix[0][0]);
+
+   NewtonCollision* nCollision = NewtonCreateCapsule (nWorld, radius, height,0,&matrix[0][0]);
    return( recastCollisionDouble(nCollision) );
 }
 
@@ -62,8 +65,8 @@ export double GmnCreateCylinder(double dWorld, double radius, double height, dou
    matrix.m_posit.m_x = offset_x;//Apply offsets to matrix
    matrix.m_posit.m_y = offset_y;
    matrix.m_posit.m_z = offset_z;
-   
-   NewtonCollision* nCollision = NewtonCreateCylinder (nWorld, radius, height,&matrix[0][0]);
+
+   NewtonCollision* nCollision = NewtonCreateCylinder (nWorld, radius, height,0,&matrix[0][0]);
    return( recastCollisionDouble(nCollision) );
 }
 
@@ -74,8 +77,8 @@ export double GmnCreateChamferCylinder(double dWorld, double radius, double heig
    matrix.m_posit.m_x = offset_x;//Apply offsets to matrix
    matrix.m_posit.m_y = offset_y;
    matrix.m_posit.m_z = offset_z;
-   
-   NewtonCollision* nCollision = NewtonCreateChamferCylinder (nWorld, radius, height,&matrix[0][0]);
+
+   NewtonCollision* nCollision = NewtonCreateChamferCylinder (nWorld, radius, height,0,&matrix[0][0]);
    return( recastCollisionDouble(nCollision) );
 }
 

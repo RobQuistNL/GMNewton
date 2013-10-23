@@ -1,8 +1,11 @@
 #include <cstddef>
-#include <stdafx.h>
-#include "newton.h"
 #include "dll.h"
 #include "recast.h"
+#include "dVector.h"
+#include "dMatrix.h"
+#include "dMathDefines.h"
+#include "dStdAfxMath.h"
+#include "Newton.h"
 
 export double GmnCreateNull(double dWorld);
 export double GmnCreateBox(double dWorld, double dx, double dy, double dz, double offset_x, double offset_y, double offset_z);

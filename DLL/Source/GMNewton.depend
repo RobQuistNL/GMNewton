@@ -455,11 +455,15 @@
 1239508244 source:f:\newtondynamics\gm_newton_1.00\world.cpp
 	"world.h"
 
-1241846228 source:g:\gmstudio\git\gmnewton\dll\source\body.cpp
+1382554178 source:g:\gmstudio\git\gmnewton\dll\source\body.cpp
 	"body.h"
 
-1382552752 g:\gmstudio\git\gmnewton\dll\source\body.h
+1382554064 g:\gmstudio\git\gmnewton\dll\source\body.h
 	<cstddef>
+	"dVector.h"
+	"dMatrix.h"
+	"dMathDefines.h"
+	"dStdAfxMath.h"
 	"dll.h"
 	"recast.h"
 
@@ -469,45 +473,49 @@
 	<cstddef>
 	"newton.h"
 
-1225257894 source:g:\gmstudio\git\gmnewton\dll\source\c_col.cpp
+1382554540 source:g:\gmstudio\git\gmnewton\dll\source\c_col.cpp
 	"c_col.h"
 
-1225062626 g:\gmstudio\git\gmnewton\dll\source\c_col.h
+1382554253 g:\gmstudio\git\gmnewton\dll\source\c_col.h
 	<cstddef>
-	<stdafx.h>
-	"newton.h"
 	"dll.h"
 	"recast.h"
+	"dVector.h"
+	"dMatrix.h"
+	"dMathDefines.h"
+	"dStdAfxMath.h"
+	"Newton.h"
 
 1236729341 source:g:\gmstudio\git\gmnewton\dll\source\g_col.cpp
 	"g_col.h"
 
-1225062662 g:\gmstudio\git\gmnewton\dll\source\g_col.h
+1382554546 g:\gmstudio\git\gmnewton\dll\source\g_col.h
 	<cstddef>
-	<stdafx.h>
 	"newton.h"
 	"dll.h"
 	"recast.h"
 
-1229400584 source:g:\gmstudio\git\gmnewton\dll\source\j_bs.cpp
+1382554568 source:g:\gmstudio\git\gmnewton\dll\source\j_bs.cpp
 	"j_bs.h"
 	"joint_destroyer.h"
+	"dVector.h"
 
-1229398664 g:\gmstudio\git\gmnewton\dll\source\j_bs.h
+1382554551 g:\gmstudio\git\gmnewton\dll\source\j_bs.h
 	<cstddef>
-	<stdafx.h>
 	"newton.h"
 	"dll.h"
 	"recast.h"
 
-1229398277 g:\gmstudio\git\gmnewton\dll\source\joint_destroyer.h
+1382554555 g:\gmstudio\git\gmnewton\dll\source\joint_destroyer.h
 	<cstddef>
-	<stdafx.h>
 	"newton.h"
 	"dll.h"
 	"recast.h"
 
-1241846663 source:g:\gmstudio\git\gmnewton\dll\source\main.cpp
+1382552797 source:g:\gmstudio\git\gmnewton\dll\source\main.cpp
+	"Newton.h"
+	"JointLibrary.h"
+	"dVector.h"
 	<cstddef>
 	"newton.h"
 	"dll.h"
@@ -527,9 +535,8 @@
 	"recast.h"
 	"materials.h"
 
-1239508310 g:\gmstudio\git\gmnewton\dll\source\materials.h
+1382554659 g:\gmstudio\git\gmnewton\dll\source\materials.h
 	<cstddef>
-	<stdafx.h>
 	"newton.h"
 	"dll.h"
 	"recast.h"
@@ -558,4 +565,22 @@
 1148112938 g:\gmstudio\git\gmnewton\dll\newtonsdk\1.53\newton.h
 
 1328327620 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\newton.h
+
+1298624770 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\dmath\dvector.h
+	"dMathDefines.h"
+
+1301545672 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\dmath\dmathdefines.h
+	<math.h>
+	<float.h>
+
+1301508862 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\dmath\dmatrix.h
+	<dVector.h>
+
+1301545668 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\dmath\dstdafxmath.h
+	<windows.h>
+	<crtdbg.h>
+	<crtdbg.h>
+
+1328328628 g:\gmstudio\git\gmnewton\dll\newtonsdk\2.36\jointlibrary.h
+	"Newton.h"
 

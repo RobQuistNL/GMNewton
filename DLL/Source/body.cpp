@@ -1,7 +1,6 @@
 #include "body.h"
-#include "dVector.h"
 
-void  PhysicsApplyForceAndTorque (const NewtonBody* body)
+void ApplyForceAndTorqueCallback (const NewtonBody* body, dFloat timestep, int threadIndex)
 {
 	dFloat Ixx;
 	dFloat Iyy;
@@ -16,12 +15,13 @@ void  PhysicsApplyForceAndTorque (const NewtonBody* body)
 
 
 export double GmnCreateBody(double dWorld, double dCollision){
+   dFloat matrix[16];
+
    NewtonWorld* nWorld = recastDoubleWorld(dWorld);
    NewtonCollision* nCollision = recastDoubleCollision(dCollision);
+   NewtonBody* nBody = NewtonCreateBody(nWorld, nCollision, matrix);
 
-   NewtonBody* nBody = NewtonCreateBody(nWorld, nCollision, 0.0f);
-
-   NewtonBodySetForceAndTorqueCallback (nBody, PhysicsApplyForceAndTorque);
+   NewtonBodySetForceAndTorqueCallback (nBody, ApplyForceAndTorqueCallback);
 
    return( recastBodyDouble(nBody) );
 }
@@ -134,9 +134,9 @@ export double GmnBodySetRotation(double dBody, double xrot, double yrot, double 
    }
 
    //set the transformation matrix
-   matrix = newmatrix * dgPitchMatrix(xrot * 3.1416f / 180.0f);
-   matrix = matrix * dgRollMatrix(zrot * 3.1416f / 180.0f);
-   matrix = matrix * dgYawMatrix(yrot * 3.1416f / 180.0f);
+   matrix = newmatrix * dPitchMatrix(xrot * 3.1416f / 180.0f);
+   matrix = matrix * dRollMatrix(zrot * 3.1416f / 180.0f);
+   matrix = matrix * dYawMatrix(yrot * 3.1416f / 180.0f);
    NewtonBodySetMatrix (nBody, &matrix[0][0]);
    return(1);
 }

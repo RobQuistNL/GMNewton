@@ -58,7 +58,7 @@ export double GmnMaterialSetDefaultSoftness(double dWorld, double id0, double id
 
 export double GmnMaterialSetCollisionCallback(double dWorld, double mat0, double mat1){//,new CollisionEvent() , MaterialBeginCollisionCallback, MaterialContactCollisionCallback, MaterialEndCollisionCallback){
     NewtonWorld* nWorld = recastDoubleWorld(dWorld);
-    NewtonMaterialSetCollisionCallback(nWorld, (int)mat0, (int)mat1, NULL, MaterialBeginCollisionCallback, MaterialContactCollisionCallback, MaterialEndCollisionCallback);
+//    NewtonMaterialSetCollisionCallback(nWorld, (int)mat0, (int)mat1, NULL, MaterialBeginCollisionCallback, MaterialContactCollisionCallback, MaterialEndCollisionCallback);
    return(1);
 }
 
@@ -89,7 +89,7 @@ export double GmnMaterialSetResponseType(double dWorld, double mat0, double mat1
     //3  Physics Only
     int usrDat = (int)action;
     NewtonWorld* nWorld = recastDoubleWorld(dWorld);
-    NewtonMaterialSetCollisionCallback(nWorld, (int)mat0, (int)mat1, &usrDat, MaterialBeginCollisionCallback, MaterialContactCollisionCallback, MaterialEndCollisionCallback);
+//    NewtonMaterialSetCollisionCallback(nWorld, (int)mat0, (int)mat1, &usrDat, MaterialBeginCollisionCallback, MaterialContactCollisionCallback, MaterialEndCollisionCallback);
     return(1);
 }
 
