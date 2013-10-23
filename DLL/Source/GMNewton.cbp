@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GMNewton" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="GMNewton" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DBUILDING_DLL=1" />
+			<Add option="-D_NEWTON_USE_LIB" />
+			<Add directory=".\common" />
+			<Add directory="..\NewtonSDK\1.53" />
+			<Add directory="..\NewtonSDK\1.53\dll" />
+		</Compiler>
+		<Linker>
+			<Add library="..\NewtonSDK\1.53\dll\Newton.lib" />
+		</Linker>
+		<Unit filename="body.cpp" />
+		<Unit filename="body.h" />
+		<Unit filename="c_col.cpp" />
+		<Unit filename="c_col.h" />
+		<Unit filename="col_struct.h" />
+		<Unit filename="dll.h" />
+		<Unit filename="g_col.cpp" />
+		<Unit filename="g_col.h" />
+		<Unit filename="j_bs.cpp" />
+		<Unit filename="j_bs.h" />
+		<Unit filename="joint_destroyer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="materials.cpp" />
+		<Unit filename="materials.h" />
+		<Unit filename="recast.cpp" />
+		<Unit filename="recast.h" />
+		<Unit filename="t_col.cpp" />
+		<Unit filename="t_col.h" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

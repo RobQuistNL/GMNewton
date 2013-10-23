@@ -1,0 +1,561 @@
+# depslib dependency file v1.0
+1225254294 source:g:\newtondynamics\gm_newton_1.00\c_col.cpp
+	"c_col.h"
+
+1225059026 g:\newtondynamics\gm_newton_1.00\c_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1224559174 g:\newtondynamics\gm_newton_1.00\dll.h
+
+1225255972 g:\newtondynamics\gm_newton_1.00\recast.h
+	<cstddef>
+	"newton.h"
+
+1236725741 source:g:\newtondynamics\gm_newton_1.00\g_col.cpp
+	"g_col.h"
+
+1225059062 g:\newtondynamics\gm_newton_1.00\g_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229396984 source:g:\newtondynamics\gm_newton_1.00\j_bs.cpp
+	"j_bs.h"
+	"joint_destroyer.h"
+
+1229395064 g:\newtondynamics\gm_newton_1.00\j_bs.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236525947 source:g:\newtondynamics\gm_newton_1.00\main.cpp
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"world.h"
+	"body.h"
+	"c_col.h"
+	"g_col.h"
+	"t_col.h"
+	"j_bs.h"
+	"materials.h"
+	"col_struct.h"
+
+1224982396 g:\newtondynamics\gm_newton_1.00\world.h
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225150918 g:\newtondynamics\gm_newton_1.00\body.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225059062 g:\newtondynamics\gm_newton_1.00\t_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225255930 source:g:\newtondynamics\gm_newton_1.00\recast.cpp
+	"recast.h"
+
+1236011046 source:g:\newtondynamics\gm_newton_1.00\t_col.cpp
+	"t_col.h"
+
+1233029066 source:g:\newtondynamics\gm_newton_1.00\world.cpp
+	"world.h"
+
+1228795540 source:g:\newtondynamics\gm_newton_1.00\body.cpp
+	"body.h"
+
+1225254294 source:g:\newtondynamics\gm_newton_1.00\code_blocks\c_col.cpp
+	"c_col.h"
+
+1225059026 g:\newtondynamics\gm_newton_1.00\code_blocks\c_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1224559174 g:\newtondynamics\gm_newton_1.00\code_blocks\dll.h
+
+1225255972 g:\newtondynamics\gm_newton_1.00\code_blocks\recast.h
+	<cstddef>
+	"newton.h"
+
+1225216080 source:g:\newtondynamics\gm_newton_1.00\code_blocks\g_col.cpp
+	"g_col.h"
+
+1225059062 g:\newtondynamics\gm_newton_1.00\code_blocks\g_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1227726156 source:g:\newtondynamics\gm_newton_1.00\code_blocks\j_bs.cpp
+	"j_bs.h"
+
+1225424094 g:\newtondynamics\gm_newton_1.00\code_blocks\j_bs.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225421266 source:g:\newtondynamics\gm_newton_1.00\code_blocks\main.cpp
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"world.h"
+	"body.h"
+	"c_col.h"
+	"g_col.h"
+	"t_col.h"
+	"j_bs.h"
+
+1224982396 g:\newtondynamics\gm_newton_1.00\code_blocks\world.h
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225150918 g:\newtondynamics\gm_newton_1.00\code_blocks\body.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225059062 g:\newtondynamics\gm_newton_1.00\code_blocks\t_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225255930 source:g:\newtondynamics\gm_newton_1.00\code_blocks\recast.cpp
+	"recast.h"
+
+1225254294 source:g:\newtondynamics\gm_newton_1.00\code_blocks\t_col.cpp
+	"t_col.h"
+
+1227727890 source:g:\newtondynamics\gm_newton_1.00\code_blocks\world.cpp
+	"world.h"
+
+1227972010 source:g:\newtondynamics\gm_newton_1.00\code_blocks\body.cpp
+	"body.h"
+
+1229009156 source:g:\newtondynamics\gm_newton_1.00\joint_list.cpp
+	"joint_list.h"
+
+1229009886 g:\newtondynamics\gm_newton_1.00\joint_list.h
+	"dll.h"
+
+1229295210 source:g:\newtondynamics\gm_newton_1.00\joint_destroyer.cpp
+
+1229394677 g:\newtondynamics\gm_newton_1.00\joint_destroyer.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236828687 g:\newtondynamics\gm_newton_1.00\materials.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1233535249 source:g:\newtondynamics\gm_newton_1.00\materials.cpp
+	"materials.h"
+
+1237042840 g:\newtondynamics\gm_newton_1.00\col_struct.h
+
+1228799140 source:e:\newtondynamics\gm_newton_1.00\body.cpp
+	"body.h"
+
+1225150918 e:\newtondynamics\gm_newton_1.00\body.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1224562774 e:\newtondynamics\gm_newton_1.00\dll.h
+
+1225255972 e:\newtondynamics\gm_newton_1.00\recast.h
+	<cstddef>
+	"newton.h"
+
+1225254294 source:e:\newtondynamics\gm_newton_1.00\c_col.cpp
+	"c_col.h"
+
+1225059026 e:\newtondynamics\gm_newton_1.00\c_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236725741 source:e:\newtondynamics\gm_newton_1.00\g_col.cpp
+	"g_col.h"
+
+1225059062 e:\newtondynamics\gm_newton_1.00\g_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229400584 source:e:\newtondynamics\gm_newton_1.00\j_bs.cpp
+	"j_bs.h"
+	"joint_destroyer.h"
+
+1229398664 e:\newtondynamics\gm_newton_1.00\j_bs.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229398277 e:\newtondynamics\gm_newton_1.00\joint_destroyer.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236525947 source:e:\newtondynamics\gm_newton_1.00\main.cpp
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"world.h"
+	"body.h"
+	"c_col.h"
+	"g_col.h"
+	"t_col.h"
+	"j_bs.h"
+	"materials.h"
+	"col_struct.h"
+
+1239508310 e:\newtondynamics\gm_newton_1.00\world.h
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+	"materials.h"
+
+1225059062 e:\newtondynamics\gm_newton_1.00\t_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1239508310 e:\newtondynamics\gm_newton_1.00\materials.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1237042840 e:\newtondynamics\gm_newton_1.00\col_struct.h
+
+1239508244 source:e:\newtondynamics\gm_newton_1.00\materials.cpp
+	"materials.h"
+
+1239227884 source:e:\newtondynamics\gm_newton_1.00\recast.cpp
+	"recast.h"
+
+1236014646 source:e:\newtondynamics\gm_newton_1.00\t_col.cpp
+	"t_col.h"
+
+1233032666 source:e:\newtondynamics\gm_newton_1.00\world.cpp
+	"world.h"
+
+1206625446 e:\program files\newtonsdk\samples\toolbox\stdafx.h
+	<stddef.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<float.h>
+	<ctype.h>
+	<windows.h>
+	<crtdbg.h>
+	<malloc.h>
+	<unistd.h>
+	<dList.h>
+	<dVector.h>
+	<dMatrix.h>
+	<Newton.h>
+
+1126303856 e:\program files\newtonsdk\samples\toolbox\dlist.h
+	<stdafx.h>
+
+1117329508 e:\program files\newtonsdk\samples\toolbox\dvector.h
+	<stdafx.h>
+	<Newton.h>
+
+1148141738 e:\program files\newtonsdk\sdk\newton.h
+
+1136863820 e:\program files\newtonsdk\samples\toolbox\dmatrix.h
+	<stdafx.h>
+	<Newton.h>
+	<dVector.h>
+
+1241846228 source:f:\newtondynamics\gm_newton_1.00\body.cpp
+	"body.h"
+
+1241846638 f:\newtondynamics\gm_newton_1.00\body.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1206625446 f:\program files\newtonsdk\samples\toolbox\stdafx.h
+	<stddef.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<float.h>
+	<ctype.h>
+	<windows.h>
+	<crtdbg.h>
+	<malloc.h>
+	<unistd.h>
+	<dList.h>
+	<dVector.h>
+	<dMatrix.h>
+	<Newton.h>
+
+1126303856 f:\program files\newtonsdk\samples\toolbox\dlist.h
+	<stdafx.h>
+
+1117329508 f:\program files\newtonsdk\samples\toolbox\dvector.h
+	<stdafx.h>
+	<Newton.h>
+
+1148141738 f:\program files\newtonsdk\sdk\newton.h
+
+1136863820 f:\program files\newtonsdk\samples\toolbox\dmatrix.h
+	<stdafx.h>
+	<Newton.h>
+	<dVector.h>
+
+1224562774 f:\newtondynamics\gm_newton_1.00\dll.h
+
+1225255972 f:\newtondynamics\gm_newton_1.00\recast.h
+	<cstddef>
+	"newton.h"
+
+1225254294 source:f:\newtondynamics\gm_newton_1.00\c_col.cpp
+	"c_col.h"
+
+1225059026 f:\newtondynamics\gm_newton_1.00\c_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236725741 source:f:\newtondynamics\gm_newton_1.00\g_col.cpp
+	"g_col.h"
+
+1225059062 f:\newtondynamics\gm_newton_1.00\g_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229400584 source:f:\newtondynamics\gm_newton_1.00\j_bs.cpp
+	"j_bs.h"
+	"joint_destroyer.h"
+
+1229398664 f:\newtondynamics\gm_newton_1.00\j_bs.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229398277 f:\newtondynamics\gm_newton_1.00\joint_destroyer.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236525947 source:f:\newtondynamics\gm_newton_1.00\main.cpp
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"world.h"
+	"body.h"
+	"c_col.h"
+	"g_col.h"
+	"t_col.h"
+	"j_bs.h"
+	"materials.h"
+	"col_struct.h"
+
+1239508310 f:\newtondynamics\gm_newton_1.00\world.h
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+	"materials.h"
+
+1239508310 f:\newtondynamics\gm_newton_1.00\materials.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225059062 f:\newtondynamics\gm_newton_1.00\t_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1237042840 f:\newtondynamics\gm_newton_1.00\col_struct.h
+
+1241814701 source:f:\newtondynamics\gm_newton_1.00\materials.cpp
+	"materials.h"
+
+1239227884 source:f:\newtondynamics\gm_newton_1.00\recast.cpp
+	"recast.h"
+
+1236014646 source:f:\newtondynamics\gm_newton_1.00\t_col.cpp
+	"t_col.h"
+
+1239508244 source:f:\newtondynamics\gm_newton_1.00\world.cpp
+	"world.h"
+
+1241846228 source:g:\gmstudio\git\gmnewton\dll\source\body.cpp
+	"body.h"
+
+1241846638 g:\gmstudio\git\gmnewton\dll\source\body.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1224562774 g:\gmstudio\git\gmnewton\dll\source\dll.h
+
+1225259572 g:\gmstudio\git\gmnewton\dll\source\recast.h
+	<cstddef>
+	"newton.h"
+
+1225257894 source:g:\gmstudio\git\gmnewton\dll\source\c_col.cpp
+	"c_col.h"
+
+1225062626 g:\gmstudio\git\gmnewton\dll\source\c_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1236729341 source:g:\gmstudio\git\gmnewton\dll\source\g_col.cpp
+	"g_col.h"
+
+1225062662 g:\gmstudio\git\gmnewton\dll\source\g_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229400584 source:g:\gmstudio\git\gmnewton\dll\source\j_bs.cpp
+	"j_bs.h"
+	"joint_destroyer.h"
+
+1229398664 g:\gmstudio\git\gmnewton\dll\source\j_bs.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1229398277 g:\gmstudio\git\gmnewton\dll\source\joint_destroyer.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1241846663 source:g:\gmstudio\git\gmnewton\dll\source\main.cpp
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"world.h"
+	"body.h"
+	"c_col.h"
+	"g_col.h"
+	"t_col.h"
+	"j_bs.h"
+	"materials.h"
+	"col_struct.h"
+
+1239508310 g:\gmstudio\git\gmnewton\dll\source\world.h
+	<cstddef>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+	"materials.h"
+
+1239508310 g:\gmstudio\git\gmnewton\dll\source\materials.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1225062662 g:\gmstudio\git\gmnewton\dll\source\t_col.h
+	<cstddef>
+	<stdafx.h>
+	"newton.h"
+	"dll.h"
+	"recast.h"
+
+1237046440 g:\gmstudio\git\gmnewton\dll\source\col_struct.h
+
+1241814701 source:g:\gmstudio\git\gmnewton\dll\source\materials.cpp
+	"materials.h"
+
+1239227884 source:g:\gmstudio\git\gmnewton\dll\source\recast.cpp
+	"recast.h"
+
+1236014646 source:g:\gmstudio\git\gmnewton\dll\source\t_col.cpp
+	"t_col.h"
+
+1239508244 source:g:\gmstudio\git\gmnewton\dll\source\world.cpp
+	"world.h"
+
+1148112938 g:\gmstudio\git\gmnewton\dll\newtonsdk\1.53\newton.h
+
